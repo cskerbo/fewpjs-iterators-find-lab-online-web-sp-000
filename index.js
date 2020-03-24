@@ -5,7 +5,8 @@ function testFunc() {
 }
 
 function superbowlWin(array) {
-  if (array.find( ({result}) => result === "W")) {
+  const win = array.find( ({result}) => result === "W")
+    if (win) {
     return true
   }
   else {
